@@ -1,8 +1,10 @@
 export type Category = "Collier" | "Bague" | "Boucles d'oreilles" | "Bracelet";
+export type Material = "Acier inoxydable" | "Plaqué or";
 
 export type Product = {
   id: string;
   cat: Category;
+  material: Material;
   name: string;
   price: string;
   tag?: string;
@@ -49,59 +51,67 @@ export const products: Product[] = [
   {
     id: "p1",
     cat: "Collier",
+    material: "Acier inoxydable",
     name: "Collier Lagune",
-    price: "285 000",
+    price: "15 000",
     tag: "Nouveau",
     img: unsplash("photo-1599643478518-a784e5dc4c8f", 700),
   },
   {
     id: "p2",
     cat: "Bague",
+    material: "Plaqué or",
     name: "Bague Éclat",
-    price: "420 000",
+    price: "12 000",
     img: unsplash("photo-1605100804763-247f67b3557e", 700),
   },
   {
     id: "p3",
     cat: "Boucles d'oreilles",
+    material: "Plaqué or",
     name: "Créoles Soleil",
-    price: "165 000",
+    price: "8 500",
     img: unsplash("photo-1535632066927-ab7c9ab60908", 700),
   },
   {
     id: "p4",
     cat: "Bracelet",
+    material: "Acier inoxydable",
     name: "Jonc Ivoire",
-    price: "198 000",
+    price: "10 000",
     tag: "Best-seller",
     img: unsplash("photo-1611652022419-a9419f74343d", 700),
   },
   {
     id: "p5",
     cat: "Collier",
+    material: "Plaqué or",
     name: "Pendentif Étoile",
-    price: "145 000",
+    price: "9 000",
     img: unsplash("photo-1611085583191-a3b181a88401", 700),
   },
   {
     id: "p6",
     cat: "Bague",
+    material: "Plaqué or",
     name: "Alliance Éternité",
-    price: "375 000",
+    price: "18 000",
     img: unsplash("photo-1603561591411-07134e71a2a9", 700),
   },
   {
     id: "p7",
     cat: "Boucles d'oreilles",
+    material: "Acier inoxydable",
     name: "Puces Perle",
-    price: "92 000",
+    price: "6 000",
     img: unsplash("photo-1596944924616-7b38e7cfac36", 700),
   },
   {
     id: "p8",
     cat: "Bracelet",
+    material: "Plaqué or",
     name: "Chaîne Cocody",
-    price: "230 000",
+    price: "14 000",
     tag: "Nouveau",
     img: unsplash("photo-1611591437281-460bfbe1220a", 700),
   },
@@ -126,7 +136,7 @@ export const filterToCategory: Record<Exclude<FilterOption, "Tout">, Category> =
 
 export const reviews: Review[] = [
   {
-    quote: "Un travail d'orfèvre. Mon collier attire tous les regards.",
+    quote: "Un an après, mon collier n'a pas noirci. Une qualité qui tient ses promesses.",
     name: "Aïcha K., Cocody",
   },
   {

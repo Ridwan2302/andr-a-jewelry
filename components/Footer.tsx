@@ -13,8 +13,8 @@ export default function Footer() {
             Jewelry · Abidjan
           </div>
           <p className="text-[13.5px] leading-[1.8] text-muted-2 mt-[22px] max-w-[280px] font-light">
-            Joaillerie d&apos;exception, façonnée à la main en Côte
-            d&apos;Ivoire depuis 2018.
+            Bijoux en acier inoxydable et plaqué or, sélectionnés avec soin
+            en Côte d&apos;Ivoire depuis 2018.
           </p>
         </div>
         <div>

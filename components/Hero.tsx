@@ -11,14 +11,14 @@ export default function Hero() {
           Nouvelle collection · 2026
         </div>
         <h1 className="font-serif font-medium text-[clamp(48px,6vw,82px)] leading-[1.02] tracking-[-0.5px]">
-          L&apos;or qui raconte
+          Des bijoux qui
           <br />
-          <span className="italic text-gold-deep">votre histoire</span>
+          <span className="italic text-gold-deep">vous ressemblent</span>
         </h1>
         <p className="max-w-[420px] my-7 text-base leading-[1.75] text-muted font-light">
-          Des pièces façonnées à la main à Abidjan, en or 18 carats et pierres
-          véritables. Une élégance intemporelle, pensée pour la femme
-          ivoirienne.
+          Acier inoxydable et plaqué or, sélectionnés pour leur éclat durable
+          et leur confort au quotidien. Une élégance accessible, pensée pour
+          la femme ivoirienne.
         </p>
         <div className="flex gap-4 items-center flex-wrap">
           <a

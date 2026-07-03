@@ -1,7 +1,7 @@
 const ITEMS = [
-  "Or 18 carats certifié",
-  "Fait main à Abidjan",
-  "Garantie à vie",
+  "Acier inoxydable & plaqué or",
+  "Ne noircit pas · hypoallergénique",
+  "Garantie 1 an",
   "Livraison en Côte d'Ivoire",
 ];
 

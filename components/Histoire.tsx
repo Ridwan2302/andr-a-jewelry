@@ -7,7 +7,7 @@ export default function Histoire() {
         <div className="relative min-h-[360px] max-[560px]:min-h-[300px]">
           <Image
             src="https://images.unsplash.com/photo-1617038220319-276d3cfab638?auto=format&fit=crop&w=1100&q=80"
-            alt="Atelier de joaillerie Andréa"
+            alt="Sélection de bijoux Andréa"
             fill
             sizes="(max-width: 960px) 100vw, 50vw"
             className="object-cover"
@@ -18,23 +18,23 @@ export default function Histoire() {
             Notre histoire
           </div>
           <h2 className="font-serif font-medium text-[clamp(32px,3.6vw,48px)] leading-[1.1]">
-            Un savoir-faire né à Abidjan
+            Une sélection pensée pour vous
           </h2>
           <p className="text-base leading-[1.85] text-on-dark-2 font-light mt-[26px] mb-[18px] max-w-[460px]">
-            Fondée à Cocody, Andréa Jewelry réunit des artisans joailliers qui
-            perpétuent un art d&apos;exception. Chaque pièce est dessinée,
-            fondue et sertie à la main, avec des matériaux nobles
-            sélectionnés avec soin.
+            Basée à Cocody, Andréa Jewelry sélectionne pour vous des bijoux en
+            acier inoxydable et plaqué or, choisis pour leur qualité, leur
+            résistance et leur éclat durable au quotidien.
           </p>
           <p className="text-base leading-[1.85] text-on-dark-2 font-light max-w-[460px]">
-            De la première esquisse à l&apos;écrin final, nous créons des
-            bijoux qui traversent les générations.
+            Ne noircissent pas, résistent à l&apos;eau et conviennent aux
+            peaux sensibles — des bijoux beaux aujourd&apos;hui, et encore
+            demain.
           </p>
           <a
             href="#collections"
             className="mt-[38px] self-start border-b border-gold text-on-dark pb-[5px] text-[12.5px] tracking-[2px] uppercase"
           >
-            Découvrir le savoir-faire
+            Découvrir la sélection
           </a>
         </div>
       </div>

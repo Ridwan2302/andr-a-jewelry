@@ -18,9 +18,9 @@ const jost = Jost({
 });
 
 export const metadata: Metadata = {
-  title: "Andréa Jewelry · Joaillerie fine à Abidjan",
+  title: "Andréa Jewelry · Bijoux acier inoxydable & plaqué or à Abidjan",
   description:
-    "Andréa Jewelry — bijoux façonnés à la main à Abidjan, en or 18 carats et pierres véritables. Colliers, bagues, boucles d'oreilles et bracelets, livrés en Côte d'Ivoire.",
+    "Andréa Jewelry — bijoux en acier inoxydable et plaqué or, sélectionnés à Abidjan. Colliers, bagues, boucles d'oreilles et bracelets, livrés en Côte d'Ivoire.",
 };
 
 export default function RootLayout({

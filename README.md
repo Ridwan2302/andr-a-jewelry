@@ -1,9 +1,10 @@
 # Andréa Jewelry — Storefront
 
-A single-page storefront for **Andréa Jewelry**, a handcrafted fine-jewelry
-brand based in Cocody, Abidjan, Côte d'Ivoire. Built with Next.js (App
-Router), React, TypeScript, and Tailwind CSS v4. Prices are shown in FCFA
-(XOF); product orders deep-link to WhatsApp instead of a checkout cart.
+A single-page storefront for **Andréa Jewelry**, a stainless steel and
+gold-plated jewelry retailer based in Cocody, Abidjan, Côte d'Ivoire. Built
+with Next.js (App Router), React, TypeScript, and Tailwind CSS v4. Prices
+are shown in FCFA (XOF); product orders deep-link to WhatsApp instead of a
+checkout cart.
 
 ## Getting started
 

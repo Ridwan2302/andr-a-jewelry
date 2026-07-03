@@ -34,7 +34,7 @@ export default function ProductCard({
       </a>
       <div className="pt-[18px] px-0.5 flex flex-col gap-[5px]">
         <div className="text-[11px] tracking-[1.5px] uppercase text-muted-2">
-          {product.cat}
+          {product.cat} · {product.material}
         </div>
         <a
           href={orderHref}

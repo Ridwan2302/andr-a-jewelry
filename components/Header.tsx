@@ -14,7 +14,6 @@ const DRAWER_LINKS = [
   { label: "Bagues", href: "#collections" },
   { label: "Boucles d'oreilles", href: "#collections" },
   { label: "Bracelets", href: "#collections" },
-  { label: "Sur-mesure", href: "#boutique" },
 ];
 
 export default function Header() {
