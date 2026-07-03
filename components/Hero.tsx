@@ -11,9 +11,9 @@ export default function Hero() {
           Nouvelle collection · 2026
         </div>
         <h1 className="font-serif font-medium text-[clamp(48px,6vw,82px)] leading-[1.02] tracking-[-0.5px]">
-          Des bijoux qui
+          Des bijoux pensés
           <br />
-          <span className="italic text-gold-deep">vous ressemblent</span>
+          <span className="italic text-gold-deep">pour durer</span>
         </h1>
         <p className="max-w-[420px] my-7 text-base leading-[1.75] text-muted font-light">
           Acier inoxydable et plaqué or, sélectionnés pour leur éclat durable
