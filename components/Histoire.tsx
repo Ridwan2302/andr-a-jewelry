@@ -1,10 +1,11 @@
 import Image from "next/image";
+import Reveal from "./Reveal";
 
 export default function Histoire() {
   return (
     <section id="histoire" className="section-anchor bg-ink text-on-dark">
       <div className="max-w-[1280px] mx-auto grid grid-cols-2 items-stretch min-h-[560px] max-[960px]:grid-cols-1 max-[960px]:min-h-0">
-        <div className="relative min-h-[360px] max-[560px]:min-h-[300px]">
+        <Reveal className="relative min-h-[360px] max-[560px]:min-h-[300px]">
           <Image
             src="https://images.unsplash.com/photo-1617038220319-276d3cfab638?auto=format&fit=crop&w=1100&q=80"
             alt="Sélection de bijoux Andréa"
@@ -12,8 +13,11 @@ export default function Histoire() {
             sizes="(max-width: 960px) 100vw, 50vw"
             className="object-cover"
           />
-        </div>
-        <div className="flex flex-col justify-center px-[clamp(32px,6vw,90px)] py-20 max-[960px]:py-14 max-[960px]:px-7">
+        </Reveal>
+        <Reveal
+          delay={150}
+          className="flex flex-col justify-center px-[clamp(32px,6vw,90px)] py-20 max-[960px]:py-14 max-[960px]:px-7"
+        >
           <div className="text-xs tracking-[4px] uppercase text-gold mb-[22px]">
             Notre histoire
           </div>
@@ -36,7 +40,7 @@ export default function Histoire() {
           >
             Découvrir la sélection
           </a>
-        </div>
+        </Reveal>
       </div>
     </section>
   );

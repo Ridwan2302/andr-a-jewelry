@@ -1,10 +1,12 @@
+import Reveal from "./Reveal";
+
 const BOUTIQUE_LINKS = ["Colliers", "Bagues", "Boucles d'oreilles", "Bracelets"];
 const AIDE_LINKS = ["Livraison", "Retours", "Entretien des bijoux", "Nous contacter"];
 
 export default function Footer() {
   return (
     <footer className="bg-ink text-on-dark-2">
-      <div className="max-w-[1280px] mx-auto px-8 pt-[70px] pb-10 grid grid-cols-[1.6fr_1fr_1fr_1fr] gap-10 max-[960px]:grid-cols-2 max-[560px]:grid-cols-1 max-[560px]:px-5">
+      <Reveal className="max-w-[1280px] mx-auto px-8 pt-[70px] pb-10 grid grid-cols-[1.6fr_1fr_1fr_1fr] gap-10 max-[960px]:grid-cols-2 max-[560px]:grid-cols-1 max-[560px]:px-5">
         <div>
           <div className="font-serif text-[28px] tracking-[3px] text-on-dark">
             ANDRÉA
@@ -55,7 +57,7 @@ export default function Footer() {
             bonjour@andrea.ci
           </div>
         </div>
-      </div>
+      </Reveal>
       <div className="border-t border-on-dark/10 py-6 px-8 text-center text-[11.5px] tracking-[1px] text-on-dark-muted max-[560px]:px-5">
         © 2026 Andréa Jewelry · Abidjan, Côte d&apos;Ivoire · Tous droits
         réservés

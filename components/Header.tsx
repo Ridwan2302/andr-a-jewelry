@@ -31,7 +31,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="sticky top-0 z-50 bg-cream/90 backdrop-blur-md border-b border-ink/10">
+      <header className="animate-fade-up sticky top-0 z-50 bg-cream/90 backdrop-blur-md border-b border-ink/10">
         <div className="max-w-[1280px] mx-auto flex items-center justify-between gap-6 px-8 py-5 max-[560px]:px-5 max-[560px]:py-4">
           <div className="flex items-center gap-3.5 flex-1">
             <button

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
+import Reveal from "./Reveal";
 
 export default function Newsletter() {
   const [subscribed, setSubscribed] = useState(false);
@@ -13,7 +14,7 @@ export default function Newsletter() {
 
   return (
     <section className="bg-cream-2">
-      <div className="max-w-[720px] mx-auto px-8 py-[90px] text-center max-[560px]:px-5">
+      <Reveal className="max-w-[720px] mx-auto px-8 py-[90px] text-center max-[560px]:px-5">
         <h2 className="font-serif font-medium text-[clamp(30px,3.4vw,44px)]">
           Rejoignez le cercle Andréa
         </h2>
@@ -44,7 +45,7 @@ export default function Newsletter() {
             </button>
           </form>
         )}
-      </div>
+      </Reveal>
     </section>
   );
 }

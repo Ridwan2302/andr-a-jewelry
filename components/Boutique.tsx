@@ -9,6 +9,7 @@ import {
 } from "@/lib/data";
 import { productOrderLink } from "@/lib/whatsapp";
 import ProductCard from "./ProductCard";
+import Reveal from "./Reveal";
 
 export default function Boutique() {
   const [activeFilter, setActiveFilter] = useState<FilterOption>("Tout");
@@ -29,7 +30,7 @@ export default function Boutique() {
       id="boutique"
       className="section-anchor max-w-[1280px] mx-auto px-8 pt-20 pb-[100px] max-[560px]:px-5"
     >
-      <div className="flex items-end justify-between mb-12 flex-wrap gap-5">
+      <Reveal className="flex items-end justify-between mb-12 flex-wrap gap-5">
         <div>
           <div className="text-xs tracking-[4px] uppercase text-gold mb-3.5">
             La boutique
@@ -53,14 +54,15 @@ export default function Boutique() {
             </button>
           ))}
         </div>
-      </div>
+      </Reveal>
       <div className="grid grid-cols-4 gap-x-6 gap-y-7 max-[960px]:grid-cols-2 max-[560px]:grid-cols-1">
-        {visibleProducts.map((product) => (
-          <ProductCard
-            key={product.id}
-            product={product}
-            orderHref={productOrderLink(product, pageUrl)}
-          />
+        {visibleProducts.map((product, i) => (
+          <Reveal key={product.id} delay={(i % 4) * 80}>
+            <ProductCard
+              product={product}
+              orderHref={productOrderLink(product, pageUrl)}
+            />
+          </Reveal>
         ))}
       </div>
     </section>

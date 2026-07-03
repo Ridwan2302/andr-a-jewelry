@@ -1,3 +1,5 @@
+import Reveal from "./Reveal";
+
 const ITEMS = [
   "Acier inoxydable & plaqué or",
   "Ne noircit pas · hypoallergénique",
@@ -7,7 +9,7 @@ const ITEMS = [
 
 export default function TrustMarquee() {
   return (
-    <div className="border-t border-b border-ink/10 py-[26px] px-8 flex justify-center gap-[clamp(28px,6vw,90px)] flex-wrap text-center">
+    <Reveal className="border-t border-b border-ink/10 py-[26px] px-8 flex justify-center gap-[clamp(28px,6vw,90px)] flex-wrap text-center">
       {ITEMS.map((item) => (
         <div
           key={item}
@@ -16,6 +18,6 @@ export default function TrustMarquee() {
           {item}
         </div>
       ))}
-    </div>
+    </Reveal>
   );
 }
