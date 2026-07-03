@@ -1,0 +1,38 @@
+import type { Metadata } from "next";
+import { Cormorant_Garamond, Jost } from "next/font/google";
+import "./globals.css";
+
+const cormorant = Cormorant_Garamond({
+  variable: "--font-cormorant",
+  subsets: ["latin"],
+  weight: ["400", "500", "600"],
+  style: ["normal", "italic"],
+  display: "swap",
+});
+
+const jost = Jost({
+  variable: "--font-jost",
+  subsets: ["latin"],
+  weight: ["300", "400", "500"],
+  display: "swap",
+});
+
+export const metadata: Metadata = {
+  title: "Andréa Jewelry · Joaillerie fine à Abidjan",
+  description:
+    "Andréa Jewelry — bijoux façonnés à la main à Abidjan, en or 18 carats et pierres véritables. Colliers, bagues, boucles d'oreilles et bracelets, livrés en Côte d'Ivoire.",
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="fr" className={`${cormorant.variable} ${jost.variable}`}>
+      <body className="font-sans text-ink bg-cream antialiased overflow-x-hidden">
+        {children}
+      </body>
+    </html>
+  );
+}
