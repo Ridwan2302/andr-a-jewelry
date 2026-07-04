@@ -24,7 +24,7 @@ export default function Hero() {
         >
           Acier inoxydable et plaqué or, sélectionnés pour leur éclat durable
           et leur confort au quotidien. Une élégance accessible, pensée pour
-          la femme ivoirienne.
+          la femme moderne.
         </Reveal>
         <Reveal delay={340} className="flex gap-4 items-center flex-wrap">
           <a

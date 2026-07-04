@@ -59,8 +59,8 @@ export default function Header() {
             <div className="font-script text-[42px] leading-none">
               Andréa
             </div>
-            <div className="text-[9.5px] tracking-[6px] uppercase text-gold font-normal mt-[3px]">
-              Jewelry · Abidjan
+            <div className="font-script text-lg leading-none -mt-1">
+              Jewelry
             </div>
           </a>
 
