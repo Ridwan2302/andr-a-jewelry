@@ -1,4 +1,4 @@
-export type Category = "Collier" | "Bague" | "Boucles d'oreilles" | "Bracelet";
+export type Category = "Collier" | "Boucles d'oreilles" | "Bracelet";
 export type Material = "Acier inoxydable" | "Plaqué or";
 
 export type Product = {
@@ -34,10 +34,10 @@ export const collections: Collection[] = [
     img: unsplash("photo-1599643478518-a784e5dc4c8f", 800),
   },
   {
-    id: "col-bagues",
-    name: "Bagues",
-    count: 31,
-    img: unsplash("photo-1605100804763-247f67b3557e", 800),
+    id: "col-bracelets",
+    name: "Bracelets",
+    count: 19,
+    img: unsplash("photo-1611652022419-a9419f74343d", 800),
   },
   {
     id: "col-boucles",
@@ -56,14 +56,6 @@ export const products: Product[] = [
     price: "15 000",
     tag: "Nouveau",
     img: unsplash("photo-1599643478518-a784e5dc4c8f", 700),
-  },
-  {
-    id: "p2",
-    cat: "Bague",
-    material: "Plaqué or",
-    name: "Bague Éclat",
-    price: "12 000",
-    img: unsplash("photo-1605100804763-247f67b3557e", 700),
   },
   {
     id: "p3",
@@ -91,14 +83,6 @@ export const products: Product[] = [
     img: unsplash("photo-1611085583191-a3b181a88401", 700),
   },
   {
-    id: "p6",
-    cat: "Bague",
-    material: "Plaqué or",
-    name: "Alliance Éternité",
-    price: "18 000",
-    img: unsplash("photo-1603561591411-07134e71a2a9", 700),
-  },
-  {
     id: "p7",
     cat: "Boucles d'oreilles",
     material: "Acier inoxydable",
@@ -120,7 +104,6 @@ export const products: Product[] = [
 export const filterOptions = [
   "Tout",
   "Colliers",
-  "Bagues",
   "Boucles d'oreilles",
   "Bracelets",
 ] as const;
@@ -129,7 +112,6 @@ export type FilterOption = (typeof filterOptions)[number];
 
 export const filterToCategory: Record<Exclude<FilterOption, "Tout">, Category> = {
   Colliers: "Collier",
-  Bagues: "Bague",
   "Boucles d'oreilles": "Boucles d'oreilles",
   Bracelets: "Bracelet",
 };
@@ -144,7 +126,7 @@ export const reviews: Review[] = [
     name: "Fatou D., Plateau",
   },
   {
-    quote: "La bague de mes rêves, livrée en 48h à Abidjan.",
+    quote: "Le bracelet de mes rêves, livré en 48h à Abidjan.",
     name: "Mariam T., Marcory",
   },
 ];

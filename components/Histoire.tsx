@@ -25,14 +25,14 @@ export default function Histoire() {
             Une sélection pensée pour vous
           </h2>
           <p className="text-base leading-[1.85] text-on-dark-2 font-light mt-[26px] mb-[18px] max-w-[460px]">
-            Basée à Cocody, Andréa Jewelry sélectionne pour vous des bijoux en
-            acier inoxydable et plaqué or, choisis pour leur qualité, leur
-            résistance et leur éclat durable au quotidien.
+            Basée à Abidjan, Côte d&apos;Ivoire, Andréa Jewelry sélectionne
+            pour vous des bijoux en acier inoxydable et plaqué or, choisis
+            pour leur qualité, leur résistance et leur éclat durable au
+            quotidien.
           </p>
           <p className="text-base leading-[1.85] text-on-dark-2 font-light max-w-[460px]">
-            Ne noircissent pas, résistent à l&apos;eau et conviennent aux
-            peaux sensibles — des bijoux beaux aujourd&apos;hui, et encore
-            demain.
+            Ne noircit pas, résiste à l&apos;eau et convient aux peaux
+            sensibles — des bijoux beaux aujourd&apos;hui, et encore demain.
           </p>
           <a
             href="#collections"

@@ -1,6 +1,6 @@
 import Reveal from "./Reveal";
 
-const BOUTIQUE_LINKS = ["Colliers", "Bagues", "Boucles d'oreilles", "Bracelets"];
+const BOUTIQUE_LINKS = ["Colliers", "Boucles d'oreilles", "Bracelets"];
 const AIDE_LINKS = ["Livraison", "Retours", "Entretien des bijoux", "Nous contacter"];
 
 export default function Footer() {

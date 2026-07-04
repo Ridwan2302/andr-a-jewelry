@@ -11,7 +11,6 @@ const NAV_LINKS = [
 
 const DRAWER_LINKS = [
   { label: "Colliers", href: "#collections" },
-  { label: "Bagues", href: "#collections" },
   { label: "Boucles d'oreilles", href: "#collections" },
   { label: "Bracelets", href: "#collections" },
 ];
