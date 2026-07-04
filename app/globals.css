@@ -4,17 +4,17 @@
   --font-serif: var(--font-cormorant);
   --font-sans: var(--font-jost);
 
-  --color-ink: #2b2622;
-  --color-cream: #f7f4ee;
-  --color-cream-2: #efe7d8;
-  --color-card: #efe9df;
-  --color-gold: #c9a24b;
-  --color-gold-deep: #8a7a4e;
-  --color-muted: #5c554d;
-  --color-muted-2: #a89a82;
-  --color-on-dark: #f0e9db;
-  --color-on-dark-2: #cbc0a8;
-  --color-on-dark-muted: #8a7f6d;
+  --color-ink: #000000;
+  --color-cream: #ffffff;
+  --color-cream-2: #f2f2f2;
+  --color-card: #f0f0f0;
+  --color-gold: #000000;
+  --color-gold-deep: #000000;
+  --color-muted: #4d4d4d;
+  --color-muted-2: #808080;
+  --color-on-dark: #ffffff;
+  --color-on-dark-2: #cccccc;
+  --color-on-dark-muted: #999999;
 }
 
 @keyframes fadeUp {

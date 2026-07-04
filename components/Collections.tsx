@@ -29,7 +29,7 @@ export default function Collections() {
                   className="object-cover"
                 />
               </div>
-              <div className="absolute left-0 right-0 bottom-0 p-7 bg-gradient-to-t from-[rgba(20,17,14,0.7)] to-transparent">
+              <div className="absolute left-0 right-0 bottom-0 p-7 bg-gradient-to-t from-[rgba(0,0,0,0.7)] to-transparent">
                 <div className="font-serif text-[30px] text-white">
                   {col.name}
                 </div>

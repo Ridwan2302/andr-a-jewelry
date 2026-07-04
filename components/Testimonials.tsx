@@ -13,7 +13,7 @@ export default function Testimonials() {
             <div className="text-gold text-[15px] tracking-[3px] mb-[18px]">
               ★★★★★
             </div>
-            <p className="font-serif italic text-[22px] leading-[1.5] text-[#3a352e]">
+            <p className="font-serif italic text-[22px] leading-[1.5] text-ink">
               &ldquo;{review.quote}&rdquo;
             </p>
             <div className="text-[11px] tracking-[2px] uppercase text-muted-2 mt-5">
