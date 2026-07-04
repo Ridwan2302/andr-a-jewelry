@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Cormorant_Garamond, Jost } from "next/font/google";
+import { Alex_Brush, Cormorant_Garamond, Jost } from "next/font/google";
 import "./globals.css";
 
 const cormorant = Cormorant_Garamond({
@@ -17,6 +17,13 @@ const jost = Jost({
   display: "swap",
 });
 
+const alexBrush = Alex_Brush({
+  variable: "--font-alex-brush",
+  subsets: ["latin"],
+  weight: ["400"],
+  display: "swap",
+});
+
 export const metadata: Metadata = {
   title: "Andréa Jewelry · Bijoux acier inoxydable & plaqué or à Abidjan",
   description:
@@ -29,7 +36,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fr" className={`${cormorant.variable} ${jost.variable}`}>
+    <html
+      lang="fr"
+      className={`${cormorant.variable} ${jost.variable} ${alexBrush.variable}`}
+    >
       <body className="font-sans text-ink bg-cream antialiased overflow-x-hidden">
         {children}
       </body>

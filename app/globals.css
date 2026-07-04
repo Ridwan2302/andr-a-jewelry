@@ -3,6 +3,7 @@
 @theme inline {
   --font-serif: var(--font-cormorant);
   --font-sans: var(--font-jost);
+  --font-script: var(--font-alex-brush);
 
   --color-ink: #000000;
   --color-cream: #ffffff;

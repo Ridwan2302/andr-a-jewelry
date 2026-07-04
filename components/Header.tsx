@@ -56,8 +56,8 @@ export default function Header() {
           </div>
 
           <a href="#top" className="text-center shrink-0">
-            <div className="font-serif text-[30px] tracking-[4px] font-medium leading-none">
-              ANDRÉA
+            <div className="font-script text-[42px] leading-none">
+              Andréa
             </div>
             <div className="text-[9.5px] tracking-[6px] uppercase text-gold font-normal mt-[3px]">
               Jewelry · Abidjan
