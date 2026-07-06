@@ -60,8 +60,8 @@ export default function Header() {
             <Image
               src="/andrea-wordmark-full.png"
               alt="Andréa Jewelry"
-              width={642}
-              height={274}
+              width={645}
+              height={275}
               priority
               className="w-[170px] h-auto mx-auto"
             />
