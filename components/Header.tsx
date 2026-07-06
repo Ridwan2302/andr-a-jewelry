@@ -58,16 +58,13 @@ export default function Header() {
 
           <a href="#top" className="text-center shrink-0">
             <Image
-              src="/andrea-wordmark.png"
-              alt="Andréa"
-              width={646}
-              height={220}
+              src="/andrea-wordmark-full.png"
+              alt="Andréa Jewelry"
+              width={642}
+              height={274}
               priority
-              className="w-[150px] h-auto mx-auto"
+              className="w-[170px] h-auto mx-auto"
             />
-            <div className="font-script text-lg leading-none -mt-1">
-              Jewelry
-            </div>
           </a>
 
           <div className="flex items-center gap-6 flex-1 justify-end">
