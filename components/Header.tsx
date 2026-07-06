@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import { WHATSAPP_NUMBER } from "@/lib/whatsapp";
 
@@ -56,9 +57,14 @@ export default function Header() {
           </div>
 
           <a href="#top" className="text-center shrink-0">
-            <div className="font-script text-[42px] leading-none">
-              Andréa
-            </div>
+            <Image
+              src="/andrea-wordmark.png"
+              alt="Andréa"
+              width={646}
+              height={220}
+              priority
+              className="w-[150px] h-auto mx-auto"
+            />
             <div className="font-script text-lg leading-none -mt-1">
               Jewelry
             </div>
