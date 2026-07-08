@@ -35,11 +35,11 @@ export default function Newsletter() {
               type="email"
               required
               placeholder="Votre adresse e-mail"
-              className="flex-1 min-w-[220px] px-5 py-4 border border-ink/30 bg-transparent font-sans text-sm"
+              className="flex-1 min-w-[220px] px-5 py-4 border border-ink/30 bg-transparent font-sans text-sm rounded-full"
             />
             <button
               type="submit"
-              className="bg-ink text-cream px-[34px] py-4 text-xs tracking-[2px] uppercase border-none cursor-pointer"
+              className="bg-ink text-cream px-[34px] py-4 text-xs tracking-[2px] uppercase border-none cursor-pointer rounded-full"
             >
               S&apos;inscrire
             </button>

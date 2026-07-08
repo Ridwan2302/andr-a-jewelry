@@ -19,7 +19,10 @@ export default function Collections() {
       <div className="grid grid-cols-3 gap-6 max-[960px]:grid-cols-2 max-[560px]:grid-cols-1">
         {collections.map((col, i) => (
           <Reveal key={col.id} delay={i * 100}>
-            <a href="#boutique" className="block relative">
+            <a
+              href="#boutique"
+              className="block relative rounded-2xl overflow-hidden"
+            >
               <div className="relative w-full h-[440px]">
                 <Image
                   src={col.img}

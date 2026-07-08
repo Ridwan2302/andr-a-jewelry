@@ -27,7 +27,7 @@ export default function ProductCard({
           />
         </div>
         {product.tag && (
-          <span className="absolute top-3 left-3 bg-cream text-ink text-[10px] tracking-[1.5px] uppercase px-[11px] py-1.5">
+          <span className="absolute top-3 left-3 bg-cream text-ink text-[10px] tracking-[1.5px] uppercase px-[11px] py-1.5 rounded-full">
             {product.tag}
           </span>
         )}
@@ -52,7 +52,7 @@ export default function ProductCard({
             target="_blank"
             rel="noopener noreferrer"
             suppressHydrationWarning
-            className="border border-ink px-4 py-2 text-[10.5px] tracking-[1.5px] uppercase inline-flex items-center gap-1.5 hover:bg-ink hover:text-cream transition-colors"
+            className="border border-ink px-4 py-2 text-[10.5px] tracking-[1.5px] uppercase inline-flex items-center gap-1.5 hover:bg-ink hover:text-cream transition-colors rounded-full"
           >
             Commander
           </a>
