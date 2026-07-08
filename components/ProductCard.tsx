@@ -15,7 +15,7 @@ export default function ProductCard({
         target="_blank"
         rel="noopener noreferrer"
         suppressHydrationWarning
-        className="relative block bg-card"
+        className="relative block bg-card rounded-2xl overflow-hidden"
       >
         <div className="relative w-full h-[300px]">
           <Image
