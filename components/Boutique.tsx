@@ -44,7 +44,7 @@ export default function Boutique() {
             <button
               key={f}
               onClick={() => setActiveFilter(f)}
-              className={`border border-ink px-4 py-[9px] text-[11px] tracking-[1.5px] uppercase cursor-pointer transition-colors rounded-full ${
+              className={`border border-ink px-4 py-[9px] text-[11px] tracking-[1.5px] uppercase cursor-pointer transition-colors ${
                 activeFilter === f
                   ? "bg-ink text-cream"
                   : "bg-transparent text-ink"

@@ -29,7 +29,7 @@ export default function Hero() {
         <Reveal delay={340} className="flex gap-4 items-center flex-wrap">
           <a
             href="#boutique"
-            className="bg-ink text-cream px-10 py-[17px] text-[12.5px] tracking-[2px] uppercase rounded-full"
+            className="bg-ink text-cream px-10 py-[17px] text-[12.5px] tracking-[2px] uppercase"
           >
             Découvrir la boutique
           </a>
